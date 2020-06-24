@@ -1,0 +1,283 @@
+
+    
+    
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(235, 227, 218);
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: #1b1001;
+    padding-bottom: 30px;
+}
+
+section{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+h1{
+    font-family: 'Blacksword', Arial, Helvetica, sans-serif;
+    font-size: 4.2em;
+    color: rgb(126, 106, 87);
+    margin-top: 0px;
+    padding-top: 30px;
+}
+/*  changement de la couleur du titre au survole de la souris */
+h1:hover{
+    color: rgb(156, 137, 118);
+}
+
+/*  changement de la couleur du titre au clic */
+h1:active{
+    color: rgb(235, 227, 218);
+}
+
+h2{
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2.1em;
+    text-transform: uppercase;
+    color: rgb(235, 227, 218);
+    width: 900px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    
+}
+h3:before {
+    content: "⧟";
+    color: rgb(146, 124, 104);
+}
+
+h3:after{
+    content: "⧟";
+    color: rgb(146, 124, 104);
+}
+h3{
+    font-size: 1.6em;
+    color: #362001;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+
+}
+
+
+p{
+    font-size: 1.2em;
+    color: #362001;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #4e2f03;
+}
+
+a:hover{
+    color: rgb(189, 163, 139);
+}
+
+ul{
+    padding: 0;
+    /* pour retirer la marge entre la barre de navigation et le header*/
+    display: inline;
+}
+
+
+li{
+    /* pour retirer les puces de la liste*/
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+ 
+}
+li:hover{
+    font-weight: bold;
+}
+
+
+nav{
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    box-shadow: 0px 6px 2px -1px rgba(0,0,0,0.3);
+    padding: 20px;
+ 
+}
+
+
+/* CLASSES */
+
+.separateur{
+    width: 100px;
+    height: 1px;
+    margin: 5px auto ;
+    display: block;
+    background-color: rgb(189, 163, 139);
+}
+
+.contener{
+    width: 90%;
+    padding-top: 80px;
+    margin: auto;
+}
+.description{
+    text-align: justify;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+.projet{
+    width: 500px;
+    margin: 30px;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 15px;
+    border: 0px #362001 solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 3px 4px rgba(0,0,0,0.24);
+}
+
+.projet:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.projet img{
+    min-width: 500px;
+    height: 266px;
+}
+.projet span {
+    text-transform: uppercase;
+    display: block; /* pour que le texte ne soit pas aligné */
+
+}
+
+.projet .date-project{
+    font-size: 1em;
+
+}
+
+.picture{
+    width: 500px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.bouton{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: rgb(235, 227, 218);
+    background: #362001;
+    padding: 10px 20px 0px 20px;
+    border: 1px solid #635d54;
+    border-radius: 10px;
+    width: 190px;
+    height: 35px;
+    cursor: pointer;
+    margin: auto;
+    transition: all 1s;
+}
+
+.bouton:hover{
+    background: #c4b9ad;
+    border: none;
+    color: #362001;
+}
+
+.peinture{
+    margin: 30px 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 96%;
+}
+
+/* POLICES */
+@font-face{
+    font-family: 'Blacksword';
+    scr: url('../src/Blacksword.otf') format('truetype');
+}
+
+img {
+    text-align: center;
+}
+
+
+#contact{
+    border: 2px #251600 solid;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#logo{
+    width: 130px;
+     margin-top: 30px;
+     margin-bottom: 40px;
+}
+#projet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#peinture img {
+    width: 700px;
+    height: 700px;
+
+}
+
+/* #peinture :hover {
+    width:900px;
+    height:900px
+} */
+
+#picture-project{
+    padding-top: 20px;
+
+}
+
+footer{
+    background-color: #1b1001;
+    text-align: center;
+    padding: 30px;
+}
+footer p{
+    color: rgb(235, 227, 218);
+}
+/* truetype et opentype */
+
+/* MEDIA QUERY */
+@media all and (max-width: 1000px){
+    #projet img {width: 100%; margin: 15px auto; height: auto;}
+ 
+    #picture-project iframe {width: 100%; min-width: auto;}
+
+    #peinture img{width: 100%; margin: 15px auto; height: auto;}
+    header h2 {width: 90%}
+}
