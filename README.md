@@ -1,5 +1,5 @@
 # portfolio2
-Création de mon premier portfolio
+Création de mon premier portfolio créer lors de ma première formation développeur web avec WebForce3.
 
 ---
 
