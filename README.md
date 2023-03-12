@@ -3,6 +3,6 @@ Voici mon deuxième portfolio créé en html et CSS lors de ma première formati
 
 ---
 
-#### Voir le projet :
+### Voir le projet :
 
 * [Portfolio n°2](https://nadiaprojets.github.io/portfolio2/) 
