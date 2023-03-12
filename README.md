@@ -1,14 +1,14 @@
 # Portfolio n°2
 
+### Description :
+Voici mon deuxième portfolio créé en html et CSS lors de ma première formation de développeur web avec WebForce3 en mars 2020.
+---
+
 # ![portfolio2](https://github.com/nadiaprojets/portfolio2/blob/master/portfolio-baner.png)
 ---
 
 ### Section projets
 # ![portfolio2 section](https://github.com/nadiaprojets/portfolio2/blob/master/portfolio2-section.png)
-
-
-Voici mon deuxième portfolio créé en html et CSS lors de ma première formation de développeur web avec WebForce3 en mars 2020.
-
 ---
 
 ### Voir le projet :
