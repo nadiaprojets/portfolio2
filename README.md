@@ -1,6 +1,6 @@
 # Portfolio n°2
 
-### Description :
+# Description
 
 Voici mon deuxième portfolio créé en html et CSS lors de ma première formation de développeur web avec WebForce3 en mars 2020.
 ---
