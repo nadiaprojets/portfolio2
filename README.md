@@ -5,4 +5,4 @@ Voici mon deuxième portfolio créé lors de ma première formation de développ
 
 #### Voir le projet
 
-* [Portfolio2](https://nadiaprojets.github.io/portfolio2/) 
+* [Portfolio n°2](https://nadiaprojets.github.io/portfolio2/) 
