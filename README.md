@@ -3,6 +3,6 @@ Voici mon deuxième portfolio créé lors de ma première formation de développ
 
 ---
 
-#### Voir le projet
+#### Voir le projet :
 
 * [Portfolio n°2](https://nadiaprojets.github.io/portfolio2/) 
