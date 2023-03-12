@@ -1,5 +1,5 @@
 # portfolio2
-Création de mon premier portfolio créer lors de ma première formation développeur web avec WebForce3.
+Voici mon deuxième portfolio créé lors de ma première formation de développeur web avec WebForce3 en mars 2020.
 
 ---
 
